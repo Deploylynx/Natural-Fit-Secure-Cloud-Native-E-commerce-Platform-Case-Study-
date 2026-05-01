@@ -1,0 +1,11 @@
+- name: Deploy to EC2 via SSH
+  uses: appleboy/ssh-action@v1.0.3
+  with:
+    host: ${{ secrets.EC2_HOST }}
+    username: ${{ secrets.EC2_USER }}
+    key: ${{ secrets.EC2_KEY }}
+    script: |
+      docker stop naturalfit || true
+      docker rm naturalfit || true
+      docker pull deploylynx/naturalfit-devsecops:latest
+      docker run -d -p 3000:3000 --name naturalfit deploylynx/naturalfit-devsecops:latest
