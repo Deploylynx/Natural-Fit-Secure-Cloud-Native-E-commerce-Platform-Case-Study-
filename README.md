@@ -1,105 +1,90 @@
-# 🚀 Production-Ready DevSecOps CI/CD Pipeline (AWS | Docker | CI/CD | Security Automation)
+# 🚀 DeployLynx DevSecOps CI/CD Pipeline
 
-A DevSecOps CI/CD pipeline project developed by **Hina Atif** for DeployLynx.com as a professional case study assignment.
-
-This project demonstrates a complete end-to-end DevSecOps workflow including automated deployment, containerization, monitoring, and security scanning.
+A production-ready DevSecOps project built by **Hina Atif** demonstrating CI/CD automation, containerization, cloud deployment, and monitoring.
 
 ---
 
 ## 📌 Project Overview
 
-This project implements a fully automated CI/CD pipeline to deploy a containerized Node.js application on AWS EC2.
+This project demonstrates a full DevSecOps pipeline including:
 
-The system ensures:
 - Continuous Integration (CI)
 - Continuous Deployment (CD)
-- Infrastructure Monitoring
-- Security Scanning (DevSecOps)
+- Security Scanning (Trivy)
+- Monitoring (Prometheus + Grafana)
+- Cloud Deployment (AWS EC2)
 
 ---
 
 ## 🏗️ Architecture
 
 
-GitHub Repository
+GitHub
 ↓
-GitHub Actions (CI/CD Pipeline)
+GitHub Actions (CI/CD)
 ↓
-Docker Image Build & Push
+Docker Build & Push
 ↓
-AWS EC2 Instance (Ubuntu)
+AWS EC2
 ↓
-Docker Container (Application)
+Docker Container (App)
 ↓
-NGINX Reverse Proxy (Port 80 → 3000)
+NGINX Reverse Proxy
 ↓
-User Access via Browser
-↓
-Prometheus (Metrics Collection)
-↓
-Grafana (Visualization Dashboard)
+User Browser
+
+Monitoring:
+Prometheus → Grafana
 
 
 ---
 
 ## ⚙️ Tech Stack
 
-- GitHub Actions (CI/CD Automation)
-- Docker (Containerization)
-- AWS EC2 (Cloud Deployment)
-- NGINX (Reverse Proxy)
-- Prometheus (Monitoring)
-- Grafana (Visualization)
-- Trivy (Security Scanning)
+- GitHub Actions
+- Docker
+- AWS EC2
+- NGINX
+- Prometheus
+- Grafana
+- Trivy
 
 ---
 
-## 🔁 CI/CD Workflow
+## 🔁 CI/CD Pipeline
 
-1. Developer pushes code to GitHub
-2. GitHub Actions pipeline triggers automatically
-3. Docker image is built
-4. Image is pushed to registry
-5. EC2 pulls latest image
-6. Container is deployed
-7. Application goes live
-
----
-
-## 🖥️ Deployment Flow
-
-
-Code → Build → Dockerize → Push → Deploy → Monitor
-
+1. Code pushed to GitHub
+2. GitHub Actions triggered
+3. Docker image built
+4. Image pushed to registry
+5. EC2 pulls image
+6. Container deployed
 
 ---
 
-## 📊 Monitoring Setup
+## 🔐 Security (DevSecOps)
+
+- Trivy scans Docker images
+- Detects vulnerabilities (CVE)
+- Ensures secure deployment
+
+---
+
+## 📊 Monitoring
 
 ### Prometheus
-- Collects system metrics
-- Endpoint: `/targets`
-- Status: UP ✔
+- Metrics collection
+- Target status: UP ✔
 
 ### Grafana
-- Real-time dashboard
-- Visualizes system health metrics
-- Displays `up = 1`
+- Visualization dashboard
+- Real-time system health
 
 ---
 
-## 🔐 Security (DevSecOps Layer)
+## 🌍 Live URLs
 
-- Trivy integrated in CI/CD pipeline
-- Scans Docker images for vulnerabilities
-- Detects CVEs (Critical / High / Medium / Low)
-- Ensures secure deployment workflow
-
----
-
-## 🌍 Live Application
-
-- Application: http://3.232.104.228  
+- App: http://3.232.104.228  
 - Prometheus: http://3.232.104.228:9090  
 - Grafana: http://3.232.104.228:3001  
 
@@ -107,37 +92,40 @@ Code → Build → Dockerize → Push → Deploy → Monitor
 
 ## 📸 Screenshots
 
-- GitHub Actions successful pipeline
-- Docker containers running on EC2
-- Prometheus targets showing **UP status**
-- Grafana dashboard visualization
-- Live application UI
+### CI/CD Pipeline
+![CI/CD](images/cicd.png)
+
+### Docker Containers
+![Docker](images/docker.png)
+
+### Prometheus Targets
+![Prometheus](images/prometheus.png)
+
+### Grafana Dashboard
+![Grafana](images/grafana.png)
 
 ---
 
 ## 🧠 Key Learnings
 
-- CI/CD automation using GitHub Actions
-- Docker container lifecycle management
-- AWS EC2 deployment
-- NGINX reverse proxy configuration
-- Monitoring with Prometheus & Grafana
-- Security scanning using Trivy
+- CI/CD automation
+- Docker containerization
+- AWS deployment
+- Monitoring systems
+- DevSecOps security scanning
 
 ---
 
-## 🏆 Business Value
+## 🏆 Status
 
-This project demonstrates:
-- Production-ready DevOps pipeline
-- Fully automated deployment system
-- Observability and monitoring setup
-- Security-first DevSecOps implementation
+✔ Pipeline Active  
+✔ Deployment Successful  
+✔ Monitoring Working  
+✔ Security Enabled  
 
 ---
 
 ## 👨‍💻 Author
 
-**Hina Atif**
-
-Project developed as part of a professional DevSecOps case study for DeployLynx.com
+Hina Atif  
+DevSecOps Engineer (Aspiring)
