@@ -93,16 +93,28 @@ Prometheus → Grafana
 ## 📸 Screenshots
 
 ### CI/CD Pipeline
-![CI/CD](images/cicd.png)
+<img width="1301" height="123" alt="CICD" src="https://github.com/user-attachments/assets/ccdec50d-12b3-4c88-a888-0646355b3c9e" />
+
+## pipeline-workflow
+<img width="812" height="414" alt="pipeline-workflow png" src="https://github.com/user-attachments/assets/e3e88815-042a-410d-b0b2-7a2a6ff65ce2" />
+
 
 ### Docker Containers
-![Docker](images/docker.png)
+<img width="1266" height="139" alt="natttt" src="https://github.com/user-attachments/assets/dc83b129-1986-42ca-93d8-923f1a5ce8dc" />
 
 ### Prometheus Targets
-![Prometheus](images/prometheus.png)
+![Prometheus](<img width="1887" height="244" alt="Promethious" src="https://github.com/user-attachments/assets/2ed6b8cb-d310-4f7c-b149-a6067dd2f606" />
+)
 
 ### Grafana Dashboard
-![Grafana](images/grafana.png)
+![Grafana](<img width="697" height="631" alt="Grafana" src="https://github.com/user-attachments/assets/c64681d9-2fee-4775-846d-93cf081c7883" />
+)
+
+<img width="916" height="330" alt="Grafana Time" src="https://github.com/user-attachments/assets/6c966bb0-cbaa-4050-adc6-bdb34a0787fa" />
+
+### Trivy 
+<img width="1177" height="126" alt="Trivy" src="https://github.com/user-attachments/assets/3e96b6a0-7b91-40a7-b93c-ba0fdfa01b03" />
+
 
 ---
 
