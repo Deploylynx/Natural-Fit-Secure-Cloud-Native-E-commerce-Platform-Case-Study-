@@ -133,12 +133,6 @@ This project demonstrates:
 
 ---
 
-## 👨‍💻 Author
-
-**DeployLynx NaturalFit DevSecOps Project**
-
----
-
 ## 🚀 Status
 
 ✔ CI/CD Pipeline: Active  
