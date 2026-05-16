@@ -132,7 +132,6 @@ DevSecOps project, AWS DevOps portfolio, Kubernetes deployment, Docker CI/CD pip
 
 ---
 
-## 👨‍💻 Author
+## 👩‍💻 Project Lead
 
-Hina Atif  
-DevSecOps Engineer (Aspiring)
+This project was designed and implemented by **Hina Atif**, DevSecOps Engineer at DeployLynx, specializing in cloud-native infrastructure, CI/CD pipelines, and secure application deployment.
