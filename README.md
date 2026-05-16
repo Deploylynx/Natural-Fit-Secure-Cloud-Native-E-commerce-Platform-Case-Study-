@@ -121,8 +121,6 @@ DeployLynx helps businesses build **secure, scalable, and production-ready cloud
 
 ---
 
-## 🔎 SEO Keywords (for Google Ranking)
-
 DevSecOps project, AWS DevOps portfolio, Kubernetes deployment, Docker CI/CD pipeline, cloud-native e-commerce platform, secure DevOps implementation, freelance DevOps engineer, remote DevOps services
 
 ---
