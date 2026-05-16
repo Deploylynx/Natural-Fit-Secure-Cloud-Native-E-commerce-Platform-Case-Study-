@@ -22,9 +22,8 @@ High availability and performance
 We delivered a complete end-to-end DevSecOps architecture including:
 
 ☁️ AWS-based cloud infrastructure (EC2, S3, VPC)
-🔄 CI/CD automation using Jenkins
+🔄 CI/CD automation using GitHub Actions
 🐳 Docker containerized application
-☸️ Kubernetes-based deployment strategy
 🔐 DevSecOps security integration across pipeline
 📊 Monitoring & observability using Prometheus and Grafana
 
@@ -32,9 +31,8 @@ We delivered a complete end-to-end DevSecOps architecture including:
 
 ⚙️ Technology Stack
 Cloud: AWS (EC2, S3, VPC)
-CI/CD: Jenkins
+CI/CD: GitHub Actions
 Containerization: Docker
-Orchestration: Kubernetes
 Monitoring: Prometheus, Grafana
 Version Control: GitHub
 Backend/Frontend: Node.js / HTML / CSS / JavaScript
@@ -54,11 +52,11 @@ Continuous monitoring and alerting
 The system follows a cloud-native deployment approach:
 
 Code pushed to GitHub
-Jenkins pipeline triggered automatically
+GitHub Actions pipeline triggered automatically
 Docker image built and tested
-Container deployed to infrastructure
-Kubernetes manages scaling and availability
+Application deployed to AWS EC2 using Docker
 Monitoring enabled via Prometheus & Grafana
+Security scanning integrated using Trivy
 📊 Monitoring & Observability
 📈 Prometheus used for system metrics collection
 📊 Grafana dashboards for visualization
@@ -119,7 +117,7 @@ Live Natural Fit application UI
 💰 Production-ready architecture for real-world usage
 🔎 Discoverability
 
-This project represents a real-world DevSecOps implementation on AWS, featuring Docker, Kubernetes, and CI/CD automation using Jenkins. It demonstrates enterprise-level cloud engineering practices suitable for scalable e-commerce platforms and production workloads.
+This project represents a real-world DevSecOps implementation on AWS, featuring Docker, and CI/CD automation using Github Action. It demonstrates enterprise-level cloud engineering practices suitable for scalable e-commerce platforms and production workloads.
 
 🤝 Work With DeployLynx
 
@@ -131,11 +129,15 @@ DevSecOps Implementation
 CI/CD Pipeline Automation
 Docker & Kubernetes Solutions
 Monitoring & Observability Setup
+Cloud Migration
 
 📩 Contact:
 
 GitHub: https://github.com/DeployLynx
 Email: your-email@example.com
+https://hashnode.com/@deploylynx-tech
+https://medium.com/@deploylynx26
+
 ⭐ Support
 
 If you find this project useful, please consider giving it a ⭐ on the repository.
