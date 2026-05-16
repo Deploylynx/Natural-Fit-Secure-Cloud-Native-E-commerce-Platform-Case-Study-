@@ -8,7 +8,7 @@ This project demonstrates expertise in DevSecOps practices, AWS cloud infrastruc
 
 🧩 Client Requirement
 
-Natural Fit required:
+### Natural Fit required ### 
 
 A secure online store for herbal products
 Scalable infrastructure to handle traffic growth
@@ -16,6 +16,8 @@ Automated deployment pipeline
 Strong data protection and security practices
 High availability and performance
 💡 Solution Delivered
+
+---
 
 We delivered a complete end-to-end DevSecOps architecture including:
 
@@ -25,6 +27,9 @@ We delivered a complete end-to-end DevSecOps architecture including:
 ☸️ Kubernetes-based deployment strategy
 🔐 DevSecOps security integration across pipeline
 📊 Monitoring & observability using Prometheus and Grafana
+
+---
+
 ⚙️ Technology Stack
 Cloud: AWS (EC2, S3, VPC)
 CI/CD: Jenkins
