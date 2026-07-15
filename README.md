@@ -1,4 +1,5 @@
 🌿 Natural Fit – Secure Cloud-Native E-commerce Platform
+
 🚀 DevSecOps Case Study by DeployLynx
 
 🌐 Project Overview
@@ -19,6 +20,7 @@ This is a real-world simulation project designed to demonstrate enterprise-level
 ❌ No monitoring or alerting system in place
 ❌ High operational overhead and inefficiencies
 
+
 ---
 
 💡 Solution (What DeployLynx Built)
@@ -30,6 +32,7 @@ DeployLynx implemented a complete end-to-end DevSecOps architecture:
 🔄 CI/CD automation using GitHub Actions
 🔐 Integrated DevSecOps security (Trivy scanning, hardened images)
 📊 Monitoring & observability (Prometheus + Grafana)
+
 
 ---
 
