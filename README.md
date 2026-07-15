@@ -12,10 +12,15 @@ This is a real-world simulation project designed to demonstrate enterprise-level
 
 🧩 Problem (Before DeployLynx)
 Natural Fit faced several critical challenges
+
 ❌ Manual deployments causing delays and human errors
+
 ❌ Limited scalability with risk of downtime during traffic spikes
+
 ❌ Weak security practices and no structured DevSecOps pipeline
+
 ❌ No monitoring or alerting system in place
+
 ❌ High operational overhead and inefficiencies
 
 ---
