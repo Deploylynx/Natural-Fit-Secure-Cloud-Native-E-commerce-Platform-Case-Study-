@@ -11,15 +11,12 @@ It demonstrates production-ready DevSecOps practices, including cloud infrastruc
 This is a real-world simulation project designed to demonstrate enterprise-level DevSecOps architecture for e-commerce platforms.
 
 🧩 Problem (Before DeployLynx)
-
-### Natural Fit faced several critical challenges ### 
-
-❌ Manual deployments are causing delays and human errors
+Natural Fit faced several critical challenges
+❌ Manual deployments causing delays and human errors
 ❌ Limited scalability with risk of downtime during traffic spikes
 ❌ Weak security practices and no structured DevSecOps pipeline
 ❌ No monitoring or alerting system in place
 ❌ High operational overhead and inefficiencies
-
 
 ---
 
