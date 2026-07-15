@@ -61,22 +61,20 @@ DeployLynx implemented a complete end-to-end DevSecOps architecture:
 
 ---
 
-⚙️ Before vs After
-Metric	          Before	      After
-Deployment	      Manual	      Automated CI/CD
-Security	        Basic	        DevSecOps Integrated
-Monitoring	      None	        Full Observability
-Scalability	      Limited	      Cloud-Native Ready
-Downtime Risk	    High	        Minimal
+<img width="377" height="226" alt="image" src="https://github.com/user-attachments/assets/6c0ba51e-0dbe-487b-b506-f506e27d1a5e" />
 
 ---
 
 🚀 Deployment Architecture
 
 Code pushed to GitHub
+
 GitHub Actions pipeline triggered automatically
+
 Docker image built and scanned (Trivy)
+
 Application deployed on AWS EC2
+
 Monitoring enabled via Prometheus & Grafana
 
 ---
@@ -84,11 +82,17 @@ Monitoring enabled via Prometheus & Grafana
 ⚙️ Technology Stack
 
 Cloud: AWS (EC2, S3, VPC)
+
 CI/CD: GitHub Actions
+
 Containerization: Docker
+
 Monitoring: Prometheus, Grafana
+
 Security: Trivy, DevSecOps Practices
+
 Backend/Frontend: Node.js, HTML, CSS, JavaScript
+
 Version Control: GitHub
 
 ---
@@ -98,9 +102,13 @@ Version Control: GitHub
 Security is integrated at every stage:
 
 Secure CI/CD pipeline design
+
 Secrets management & environment isolation
+
 Container hardening best practices
+
 Continuous vulnerability scanning (Trivy)
+
 Network-level security via AWS VPC
 
 ---
@@ -165,9 +173,13 @@ Trivy
 🔎 Key Highlights
 
 Production-ready DevSecOps architecture
+
 Secure cloud-native deployment
+
 Automated CI/CD pipeline
+
 Scalable infrastructure design
+
 Real-time monitoring & alerting
 
 ---
@@ -179,10 +191,15 @@ DeployLynx builds secure, scalable, and production-ready cloud systems.
 💼 Services:
 
 AWS Cloud Deployment
+
 DevSecOps Implementation
+
 CI/CD Pipeline Automation
+
 Docker & Kubernetes Solutions
+
 Monitoring & Observability
+
 Cloud Migration
 
 ---
